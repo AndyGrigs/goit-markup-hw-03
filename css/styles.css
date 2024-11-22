@@ -204,7 +204,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.visually-hidden {
+.services .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -216,6 +216,7 @@ a {
   clip-path: inset(50%);
   overflow: hidden;
 }
+
 .section-title {
   color: var(--primary-text-color);
   font-size: 36px;
