@@ -255,7 +255,7 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 
-team-member-info {
+.team-member-info {
   padding: 32px 0;
 }
 
@@ -328,14 +328,22 @@ team-member-info {
 .footer {
   background-color: var(--secondary-text-color);
   color: var(--white-text-color);
+  padding: 100px 0;
+}
+
+.logo-dark{
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer .logo-accent {
   color: var(--cloud-color);
+
 }
 
 .footer-description {
   color: var(--cloud-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
